@@ -47,6 +47,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_04_Continuous_Tasks", "0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_04_Task_Result", "05_04_Task_Result\05_04_Task_Result.csproj", "{28CC6FBA-7D7C-4B21-8BCC-05EAE8F14B97}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_async_await", "06_async_await\06_async_await.csproj", "{48603D9E-B7BC-4521-A53C-96919C571B33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_01_AsyncAwait", "06_01_AsyncAwait\06_01_AsyncAwait.csproj", "{10D0E462-9AB9-4128-BB71-E8B7327D6C29}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +145,14 @@ Global
 		{28CC6FBA-7D7C-4B21-8BCC-05EAE8F14B97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28CC6FBA-7D7C-4B21-8BCC-05EAE8F14B97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28CC6FBA-7D7C-4B21-8BCC-05EAE8F14B97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48603D9E-B7BC-4521-A53C-96919C571B33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48603D9E-B7BC-4521-A53C-96919C571B33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48603D9E-B7BC-4521-A53C-96919C571B33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48603D9E-B7BC-4521-A53C-96919C571B33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10D0E462-9AB9-4128-BB71-E8B7327D6C29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10D0E462-9AB9-4128-BB71-E8B7327D6C29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10D0E462-9AB9-4128-BB71-E8B7327D6C29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10D0E462-9AB9-4128-BB71-E8B7327D6C29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
