@@ -33,19 +33,19 @@ namespace _03_02_TestThreadsWithUA
         private void HardWork()
         {
             bool isContinue = false;
-           Application.Current.Dispatcher.Invoke(new Action(() =>
-             {
+          // Application.Current.Dispatcher.Invoke(new Action(() =>
+           //  {
           if (progress.Value > 0)
                 progress.Value = progress.Minimum;
             isContinue = progress.Value < progress.Maximum;
-            }));
+          //  }));
             while (isContinue)
             {
-                 Application.Current.Dispatcher.Invoke(new Action(() =>
-                {
+                // Application.Current.Dispatcher.Invoke(new Action(() =>
+               // {
                 progress.Value++;
                 isContinue = progress.Value < progress.Maximum;
-                 }));
+                 //}));
                 Thread.Sleep(110);
                 //Tuple<int, int> tuple = new Tuple<int, int>(5, 6);
                 

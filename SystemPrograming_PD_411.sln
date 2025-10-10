@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_async_await", "06_async_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_01_AsyncAwait", "06_01_AsyncAwait\06_01_AsyncAwait.csproj", "{10D0E462-9AB9-4128-BB71-E8B7327D6C29}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_CopyFileManager", "07_CopyFileManager\07_CopyFileManager.csproj", "{6A14F1C7-CEE3-4A4B-BF56-B9EB6C0C6951}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{10D0E462-9AB9-4128-BB71-E8B7327D6C29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10D0E462-9AB9-4128-BB71-E8B7327D6C29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10D0E462-9AB9-4128-BB71-E8B7327D6C29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A14F1C7-CEE3-4A4B-BF56-B9EB6C0C6951}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A14F1C7-CEE3-4A4B-BF56-B9EB6C0C6951}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A14F1C7-CEE3-4A4B-BF56-B9EB6C0C6951}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A14F1C7-CEE3-4A4B-BF56-B9EB6C0C6951}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
