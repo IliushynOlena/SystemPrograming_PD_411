@@ -20,7 +20,14 @@ namespace _04_Continuous_Tasks
             // автоматичний запуск завдання після завершення поточного
             Task task2 = task1
                 .ContinueWith(Display)
-                .ContinueWith(Display2); //.ContinueWith(Display2);
+                .ContinueWith(Display2)
+                .ContinueWith(Task =>
+                {
+                    Console.WriteLine("Display 2");
+                    Console.WriteLine($"Task Id: {Task.CurrentId}");
+                    Console.WriteLine($"Previous Task Id: {Task.Id}");
+                }); //.Contin
+                                         //ueWith(Display2);
 
             task1.Start();
 
